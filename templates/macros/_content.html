@@ -1,9 +1,86 @@
 <div class="tab-content" id="navTabContent">
-  <div class="tab-pane fade show active" id="aboutme" role="tabpanel" aria-labelledby="aboutme-tab">{{ this.aboutme }}</div>
-  <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">{{ this.research }}</div>
-  <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">{{ this.publications }}</div>
-  <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">{{ this.projects }}</div>
-  <div class="tab-pane fade" id="talks" role="tabpanel" aria-labelledby="talks-tab">{{ this.talks }}</div>
-  <div class="tab-pane fade" id="patents" role="tabpanel" aria-labelledby="patents-tab">{{ this.patents }}</div>
-  <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">{{ this.awards }}</div>
+  <div class="tab-pane fade show active" id="aboutme" role="tabpanel" aria-labelledby="aboutme-tab">
+  	{{ this.aboutme }}
+    <br>
+    {% if this.topics %}
+    <h5>Research Topics:</h5>
+    <ul>
+    {% for item in this.topics %}
+      <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+  </div>
+  <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">
+  	{{ this.research }}
+  </div>
+  <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">
+    <h3>Selected publications</h3>
+    <br>
+    {% if this.publications %}
+    {% for item in this.publications.blocks %}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+
+    {% if this.publications %}<p>See <a href="{{this.cv}}">CV</a> for complete List</p> {% endif %}
+  </div>
+  <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+    <h3>Selected projects</h3>
+    <br>
+    {% if this.projects %}
+    {% for item in this.projects.blocks %}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+  </div>
+  <div class="tab-pane fade" id="talks" role="tabpanel" aria-labelledby="talks-tab">
+    <h3>Selected scientific talks</h3>
+    <br>
+    {% if this.talks %}
+    {% for item in this.talks.blocks %}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+  </div>
+  <div class="tab-pane fade" id="outreach" role="tabpanel" aria-labelledby="outreach-tab">
+    <h3>Selected outreach activities</h3>
+    <br>
+    {% if this.outreach %}
+    {% for item in this.outreach.blocks %}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+  </div>
+  <div class="tab-pane fade" id="patents" role="tabpanel" aria-labelledby="patents-tab">
+    <h3>Selected patents</h3>
+    <br>
+    {% if this.patents %}
+    {% for item in this.patents.blocks %}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+  </div>
+  <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+    <h3>Selected awards</h3>
+    <br>
+    {% if this.awards %}
+    {% for item in this.awards.blocks %}
+    <ul>
+      <li>{{item}}</li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+  </div>
 </div>

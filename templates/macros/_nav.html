@@ -24,6 +24,11 @@
     <a class="nav-link" id="talks-tab" data-toggle="tab" href="#talks" role="tab" aria-controls="talks">Talks</a>
   </li>
   {% endif %}
+  {% if this.outreach %}
+  <li class="nav-item">
+    <a class="nav-link" id="outreach-tab" data-toggle="tab" href="#outreach" role="tab" aria-controls="outreach">Outreach</a>
+  </li>
+  {% endif %}
   {% if this.patents %}
   <li class="nav-item">
     <a class="nav-link" id="patents-tab" data-toggle="tab" href="#patents" role="tab" aria-controls="patents">Patents</a>
@@ -36,7 +41,7 @@
   {% endif %}
   {% if this.cv %}
   <li class="nav-item">
-    <a class="nav-link" id="cv-tab" data-toggle="tab" href="#cv" role="tab" aria-controls="cv">CV</a>
+    <a class="nav-link" href="{{ this.cv }}" target="blank">CV</a>
   </li> 
   {% endif %}
 </ul>

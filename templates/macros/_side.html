@@ -1,24 +1,30 @@
-<div class="container-fluid text-center" style="background-color: #225E3E; color: #D6D6D6; padding-bottom: 15%; padding-top: 10%">
+<div class="container-fluid text-center side-up">
 <img src= {{ this.pic }} alt="" class="rounded-circle img-fluid">
 <br><br>
 <p class="h3">{{this.name}} {{this.surname}}</p>
 <p class="h6">{{this.group}}</p>
+<p><em><small>{{this.position}}</small></em></p>
 </div>
 
-<div class="container-fluid" style="background-color: #2B764D; color: #D6D6D6; padding-top: 15%; padding-bottom: 15%">
+<div class="container-fluid side-down">
 <ul class="fa-ul">
-<li style="padding-bottom:3%"><i class="fa fa-envelope-o" aria-hidden="true"></i>    <small>{{this.email}}</small></li>
-<li style="padding-bottom:3%"><i class="fa fa-mobile" aria-hidden="true"></i>    <small>{{this.phone}}</small></li>
+<li><i class="fa fa-envelope-o" aria-hidden="true"></i>    <small>{{this.email}}</small></li>
+{% if this.phone%}
+<li><i class="fa fa-mobile" aria-hidden="true"></i>    <small>{{this.phone}}</small></li>
+{% endif%}
 {% if this.likedin%}
-<li style="padding-bottom:3%"><i class="fa fa-linkedin" aria-hidden="true"></i>    <small><a href="{{this.linkedin}}" style="color: #D6D6D6">LinkedIn profile</a></small></li>
+<li><i class="fa fa-linkedin" aria-hidden="true"></i>    <small><a href="{{this.linkedin}}">LinkedIn profile</a></small></li>
 {% endif%}
+{% set ridurl = 'http://www.researcherid.com/rid/' %}
 {% if this.researcherid%}
-<li style="padding-bottom:3%"><i class="fa fa-database" aria-hidden="true"></i>    <small>{{this.researcherid}}</small></li>
+{% set ridurl = ridurl +  this.researcherid %}
+<li><i class="fa fa-database" aria-hidden="true"></i>    <small><a href={{ridurl}}>Researcher ID</a></small></li>
 {% endif%}
+{% set orcidurl = 'http://orcid.org/' %}
 {% if this.orcid%}
-<li style="padding-bottom:3%"><i class="fa fa-database" aria-hidden="true"></i>    <small>{{this.orcid}}</small></li>
+{% set orcidurl = orcidurl +  this.orcid %}
+<li><i class="fa fa-database" aria-hidden="true"></i>    <small><a href={{orcidurl}}>ORCID</a></small></li>
 {% endif%}
 
 </ul>
 </div>
-

@@ -12,6 +12,8 @@ division: Experimental Division
 ---
 email: csanchez@ifae.es
 ---
+position: Doctoral Student
+---
 group: Observational Cosmology Group
 ---
 likedin: https://www.linkedin.com/in/carlessanchezalonso
@@ -37,11 +39,61 @@ title: Galaxy bias from galaxy-galaxy lensing in the DES SV Data
 ----
 authors: J. Prat, C. Sánchez et al. (The DES collaboration)
 ----
-reference: Submitted to MNRAS, 2016 
+reference: Submitted to MNRAS, 2016
 ----
 publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1609.08167
 ----
 arxiv: http://arxiv.org/abs/1609.08167
+#### publication ####
+title: Cosmic Voids and Void Lensing in the Dark Energy Survey SV Data
+----
+authors: C. Sánchez (corresponding author), J. Clampitt, A. Kovacs, B. Jain et al.  (The DES collaboration)
+----
+reference: MNRAS, in press, 2016
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1605.03982
+----
+arxiv: http://arxiv.org/abs/1605.03982
+#### publication ####
+title: Cosmology from large scale galaxy clustering and galaxy-galaxy lensing with Dark Energy Survey SV data
+----
+authors: J. Kwan, C. Sánchez (corresponding author, together with J. Kwan) et al.  (The DES collaboration)
+----
+reference: MNRAS, in press, 2016
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.07871
+----
+arxiv: http://arxiv.org/abs/1604.07871
+#### publication ####
+title: Galaxy-Galaxy Lensing in the Dark Energy Survey SV Data
+----
+authors: J. Clampitt, C. Sánchez, J. Kwan et al. (The DES collaboration)
+----
+reference: Submitted to MNRAS, 2016
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.05790
+----
+arxiv: http://arxiv.org/abs/1603.05790
+#### publication ####
+title: Clustering and Bias Measurements of SDSS Voids
+----
+authors: J. Clampitt, B. Jain, C. Sánchez
+----
+reference: MNRAS, 456(4), 4425-4431, 2016
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.08031
+----
+arxiv: http://arxiv.org/abs/1507.08031
+#### publication ####
+title: Photometric redshift analysis in the Dark Energy Survey SV data
+----
+authors: C. Sánchez (corresponding author), M. Carrasco-Kind, H. Lin, R. Miquel et al.  (The DES collaboration)
+----
+reference: MNRAS, 445(2), 1482-1506, 2014
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1406.4407
+----
+arxiv: http://arxiv.org/abs/1406.4407
 ---
 research:
 
@@ -81,35 +133,110 @@ In that study, I measured, for the first time in a photometric survey, the void 
 ---
 surname: Sánchez
 ---
-topics: ones, two, three
+topics: 
 ---
 pic: profile.png
 ---
 talks:
 
 #### talk ####
-conference: COSMO16
+line1: COSMO16
 ----
-date: 2016-08
+line2: University of Michigan, USA
 ----
-place: University of Michigan, USA
-----
-type1: contributed
-----
-type2: scientific
+date: Aug. 2016
 ----
 url: 
 #### talk ####
-conference: European Southern Observatory (ESO)
+line1: European Southern Observatory (ESO)
 ----
-date: 2016-01
+line2: Santiago, Chile
 ----
-place: Santiago, Chile
+date: Jan. 2016
 ----
-type1: 
+url: 
+#### talk ####
+line1: Dept. of Physics and Astronomy (invited)
 ----
-type2: 
+line2: University of Pennsylvania, USA
+----
+date: Jun 2015
+----
+url: 
+#### talk ####
+line1: DES Combined Probes Workshop (invited)
+----
+line2: University of Pennsylvania, USA
+----
+date: Mar 2015
+----
+url: 
+#### talk ####
+line1: National Astronomy Meeting (NAM) (contributed)
+----
+line2: University of Portsmouth, UK
+----
+date: Jun 2014
+----
+url: 
+#### talk ####
+line1: DES Weak Lensing Workshop (contributed)
+----
+line2: Ohio State University, USA
+----
+date: Feb 2014
+----
+url: 
+#### talk ####
+line1: International School of Physics Enrico Fermi (contributed)
+----
+line2: Varenna, Italy
+----
+date: Jul 2013
+----
+url: 
+#### talk ####
+line1: DES Combined Probes Workshop (contributed)
+----
+line2: Fermilab, USA
+----
+date: May 2013
 ----
 url: 
 ---
 cv: https://www.dropbox.com/s/lrgn6nes2v8fw8l/csanchez_cv_long.pdf?raw=1
+---
+outreach:
+
+#### outreach ####
+line1: Lecture on Cosmology
+----
+line2: Barcelona International Youth Science Challenge (BIYSC)
+----
+date: Jul 2016
+----
+url: http://biysc.org/
+#### outreach ####
+line1: Cosmology seminar
+----
+line2: Astronomical Association  of Sant Cugat, Barcelona (AASCV)
+----
+date: May 2016
+----
+url: http://www.astronomia.cat/
+#### outreach ####
+line1: Data analysis in Cosmology
+----
+line2: Crazy about Science high-school student program, Barcelona
+----
+date: Mar 2016
+----
+url: http://bojosperlafisica.ifae.es/
+#### outreach ####
+line1: Cosmology seminar for high-school students visiting IFAE
+----
+line2: IFAE
+----
+date: Dec 2014
+----
+url:
