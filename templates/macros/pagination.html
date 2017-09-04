@@ -1,0 +1,22 @@
+{% macro render_pagination(pagination) %}
+<nav class="pagination">
+  {% if pagination.has_prev %}
+  <a class="pagination-previous" href="{{ pagination.prev|url }}">Previous</a>
+  {% else %}
+  <a class="pagination-previous" disabled>Previous</a>
+  {% endif %}
+  {% if pagination.has_next %}
+      <a class="pagination-next" href="{{ pagination.next|url }}">Next</a>
+    {% else %}
+      <a class="pagination-next" disabled>Next</a>
+  {% endif %}
+<!--   <ul class="pagination-list">
+    <li><a class="pagination-link">1</a></li>
+    <li><span class="pagination-ellipsis">&hellip;</span></li>
+    <li><a class="pagination-link">{{ pagination.page }}</a></li>
+    <li><span class="pagination-ellipsis">&hellip;</span></li>
+    <li><a class="pagination-link is-current">{{ pagination.pages }}</a></li>
+  </ul> -->
+
+</nav>
+{% endmacro %}

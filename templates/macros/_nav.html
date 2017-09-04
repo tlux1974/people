@@ -1,0 +1,42 @@
+<ul class="nav nav-tabs" id="navTab" role="tablist">
+  {% if this.aboutme %}
+  <li class="nav-item">
+    <a class="nav-link active" id="aboutme-tab" data-toggle="tab" href="#aboutme" role="tab" aria-controls="home" aria-expanded="true">About Me</a>
+  </li>
+  {% endif %}
+  {% if this.research %}
+  <li class="nav-item">
+    <a class="nav-link" id="research-tab" data-toggle="tab" href="#research" role="tab" aria-controls="research">Research</a>
+  </li>
+  {% endif %}
+  {% if this.publications %}
+  <li class="nav-item">
+    <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab" aria-controls="publications">Publications</a>
+  </li>
+  {% endif %}
+  {% if this.projects %}
+  <li class="nav-item">
+    <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects">Projects</a>
+  </li>
+  {% endif %}
+  {% if this.talks %}
+  <li class="nav-item">
+    <a class="nav-link" id="talks-tab" data-toggle="tab" href="#talks" role="tab" aria-controls="talks">Talks</a>
+  </li>
+  {% endif %}
+  {% if this.patents %}
+  <li class="nav-item">
+    <a class="nav-link" id="patents-tab" data-toggle="tab" href="#patents" role="tab" aria-controls="patents">Patents</a>
+  </li>
+  {% endif %}
+  {% if this.awards %}
+  <li class="nav-item">
+    <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards" role="tab" aria-controls="awards">Awards</a>
+  </li>
+  {% endif %}
+  {% if this.cv %}
+  <li class="nav-item">
+    <a class="nav-link" id="cv-tab" data-toggle="tab" href="#cv" role="tab" aria-controls="cv">CV</a>
+  </li> 
+  {% endif %}
+</ul>

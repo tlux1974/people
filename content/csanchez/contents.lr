@@ -1,0 +1,115 @@
+_model: person
+---
+aboutme:
+
+I am a PhD student in the Observational Cosmology Group at the Institut de Física d'Altes Energies (IFAE), where I work under the supervision of Prof. Ramon Miquel (IFAE & ICREA). Additionally, I conduct an International PhD Component held at the University of Pennsylvania (USA) and supervised by Prof. Bhuvnesh Jain.
+
+I specialize in data analysis of photometric galaxy surveys, from the estimation and calibration of photometric redshifts to the cosmological parameter determination using large-scale structure and weak gravitational lensing, including intermediate steps like systematics testing in the galaxy clustering or weak lensing. Furthermore, I have extended the clustering and lensing studies to cosmic voids, designing an optimized void finder for photometric surveys.
+
+During my PhD, I have focused in applying these techniques to data from the Dark Energy Survey (DES) Collaboration. I am a leading author of a number of key DES publications, and I have been elected as the convener of the DES Galaxy-Galaxy Lensing SubWorkingGroup, a role that I play since early 2016.
+---
+division: Experimental Division
+---
+email: csanchez@ifae.es
+---
+group: Observational Cosmology Group
+---
+likedin: https://www.linkedin.com/in/carlessanchezalonso
+---
+name: Carles
+---
+phone: +34 669 984 256
+---
+publications:
+
+#### publication ####
+title: Imprint of DES super-structures on the Cosmic Microwave Background
+----
+authors: A. Kovacs, C. Sánchez et al. (The DES collaboration)
+----
+reference: Submitted to MNRAS, 2016
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.00637
+----
+arxiv: http://arxiv.org/abs/1610.00637
+#### publication ####
+title: Galaxy bias from galaxy-galaxy lensing in the DES SV Data
+----
+authors: J. Prat, C. Sánchez et al. (The DES collaboration)
+----
+reference: Submitted to MNRAS, 2016 
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1609.08167
+----
+arxiv: http://arxiv.org/abs/1609.08167
+---
+research:
+
+As an observational cosmologist, I am mostly interested in the large-scale structure (LSS) of the univers, which refers to the complicated filamentary network of galaxies and their dark matter halos around large, empty regions of space known as cosmic voids. It contains crucial information about the content and hence the origin, evolution and fate of the universe.
+
+Galaxy surveys provide a way of mapping the LSS by obtaining information about millions of distant galaxies through extensive observation of the night sky. During my PhD, I have worked on several scientific aspects of photometric galaxy surveys, from the first steps in the analysis to cosmological paremeter estimation, focusing on data from the Dark Energy Survey (DES). Below I describe some of the work I have done during this period.
+
+###Photometric redshifts###
+
+The photometric redshift (photo-z) determination technique is a method to measure the redshifts of galaxies using broad-band photometry instead of spectroscopy. The determination is performed by comparing these measured low-resolution spectra to redshifted template galaxy spectra or to some measured spectra for which we already have spectroscopy from other instruments.
+
+I led a study in which we assesed the photo-z performance of the Dark Energy Camera (DECam) instrument by using DES Science Verification (SV) data matched to spectroscopic data from several experiments.
+
+![Fields](fields.png "Fields")
+
+In that study, we used most of the existing photo-z codes and compared their accuracy with the DES photo-z requirements, established prior the start of the survey, demonstrating DECam performance satisfies or even exceeds the prior expectations. Photometric redshift analysis in the Dark Energy Survey Science Verification data was the first DES data paper to be published, and has become an important reference in the photo-z literature.
+
+Besides the above-mentioned publication, my involvement in the DES photo-z working group included providing the collaboration with photo-z estimates for DES-SV galaxies, using both training and template-based methods. In that regard, I produced a photo-z value-added catalog using the BPZ code that was used in most WL and LSS papers using SV data, including cosmological analyses.
+
+###Cosmology from the combination of large-scale structure and weak gravitational lensing###
+
+The distriution of galaxies, tracing the large-scale structure (LSS) of the Universe, is related to the matter distribution, the one carrying cosmological information, but just in a biased way, as galaxies only exist in rather dense dark matter environments. However, the weak gravitational lensing (WL) effect, inducing correlations in the shapes of distant galaxies due to the presence of gravitational fields between those galaxies and us, is sensitive to the total matter field. Therefore, by combining LSS and WL we can break the degeneracies with the galaxy bias and access the cosmological information contained in the growth of cosmic structures and the local expansion rate.
+
+In Cosmology from large scale galaxy clustering and galaxy-galaxy lensing with Dark Energy Survey SV data I measured the angular clustering and the galaxy-galaxy lensing of red galaxies in the DES-SV data sample and co-led the first cosmological analysis from the combination of LSS and WL probes in DES. Below there is an animation showing the density evolution of our fiducial Monte-Carlo Markov Chain on the amplitude of matter fluctuations and the matter density in the Universe.
+
+![Animation](animation.gif "Animation")
+
+Extensive systematics testing has been performed on these measurements, as presented in Galaxy-Galaxy Lensing in the DES Science Verification Data. The cosmological results are not yet competitive with Planck or other data sets, but they are only using 3% of the final DES data sample. At the time DES finishes taking data, it will have probed a volume of the Universe about 20 times larger than its major precursor, SDSS, providing the best existing cosmological data of the late-time Universe.
+
+###Cosmic voids and void lensing in photometric surveys###
+
+Cosmic voids are large, almost empty regions in space surrounded by the filamentary network of galaxies and dark matter that makes the LSS. Tipically, they are identified in spectroscopic galaxy surveys, where accurate 3D LSS information is available, as photo-z errors can render many voids undetectable. In Cosmic Voids and Void Lensing in the Dark Energy Survey Science Verification Data I developed a new void finder designed specifically for minimizing the impact of such errors in photometric surveys. Then, I characterized, using realistic simulations of the DES data, the purity and the properties of the resulting sample of voids. In the animation below, one can see the relation between the galaxy density field (smooth red), galaxy clusters (solid black points) and cosmic voids (open circles) from redshift z=0.2 to z=0.8 (more than 4 thousand million years!) in the DES-SV footprint.
+
+![Voids](voids_animation.gif "Voids")
+
+In that study, I measured, for the first time in a photometric survey, the void lensing signal with a significance of more than 4σ using DES-SV data. Also, in Imprint of DES super-structures on the Cosmic Microwave Background we used the same void finder and its inversion to study the imprint of cosmic super-structures in the CMB with DES data, probing the Integrated Sachs-Wolfe effect. Those are just examples of the numerous applications of a void finder optimized for photometric surveys, and other cases of special interest will be the study of modified gravity using void lensing or the cosmological analysis using void dynamics.
+---
+surname: Sánchez
+---
+topics: ones, two, three
+---
+pic: profile.png
+---
+talks:
+
+#### talk ####
+conference: COSMO16
+----
+date: 2016-08
+----
+place: University of Michigan, USA
+----
+type1: contributed
+----
+type2: scientific
+----
+url: 
+#### talk ####
+conference: European Southern Observatory (ESO)
+----
+date: 2016-01
+----
+place: Santiago, Chile
+----
+type1: 
+----
+type2: 
+----
+url: 
+---
+cv: https://www.dropbox.com/s/lrgn6nes2v8fw8l/csanchez_cv_long.pdf?raw=1

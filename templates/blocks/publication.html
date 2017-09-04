@@ -1,0 +1,8 @@
+<ul class="list-unstyled">
+<li><p class="h5"><em>{{ this.title }}</em></p></li>
+<li><p class="h6">{{ this.authors }}</p><li>
+<li><p class="h6 text-muted">{{ this.reference }} 
+	{% if this.publink%}<a href="{{this.publink}}">[Link]</a>{% endif %}
+	{% if this.arxiv %}<a href="{{this.arxiv}}">[arXiv]</a>{% endif %}</p>
+<li>
+</ul>

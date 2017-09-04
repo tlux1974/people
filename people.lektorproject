@@ -1,0 +1,8 @@
+[project]
+name = people
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = rsync://sgrinschpun@193.109.175.226/var/www/html/people

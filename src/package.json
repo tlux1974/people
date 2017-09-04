@@ -1,0 +1,27 @@
+{
+  "name": "scaffold_bootrap_4",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundlejs": "browserify js/app.js -o ../assets/static/js/bundle.js",
+    "build-css": "node-sass --includepath scss sass/main.sass ../assets/static/css/styles.min.css --output-style compressed",
+    "build-css-test": "node-sass --includepath scss sass/main.sass ../assets/static/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "sgrinschpun",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "bootswatch": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": ">=3.0.0",
+    "popper.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "node-sass": "^4.5.0"
+  }
+}
