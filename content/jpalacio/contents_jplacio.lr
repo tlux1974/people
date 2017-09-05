@@ -1,0 +1,161 @@
+_model: person
+---
+aboutme:
+
+I am a PhD student in the Gamma Ray Group at the Institut de Física d'Altes Energies (IFAE), where I work under the supervision of Prof. Javier Rico (IFAE). I specialize in indirect dark matter searches with Imaging Atmospheric Cherenkov Telescopes (IACT); MAGIC and CTA.  
+
+During my PhD, I have been mainly devoted into analysis, where I have been performing spectral and morphological likelihood analysis from regions of the sky where high concentrations of dark matter are expected (dwarfs satellites, globulars clusters, clusters of galaxies...). One of my main contribution has been the development of a new dedicated monte carlo for IACTs for extended sources. IACTs have field of views of the order of the degree, and expected signals from nearby dark matter halos is of the same order where dedicated monte carlo tools are required. I am a leading author of a number of key MAGIC publications on dark matter searches.  
+
+I have also performed hardware activities involved in the development and characterization of the next generation of IACTs. Current IACT's sensitivity is limited for the relatively bad performance at low energies, where dark matter spectras are specially distinctive. The future Large Size Telescope (LST) is expected to improve current energy threshold by increasing the mirror collection area. The IFAE gamma ray group is strongly involved in the design, construction and characterization of the LST camera and have been performing calibration noise measurements on the final camera set up.  
+---
+cv:
+
+ https://www.dropbox.com/s/q7fefwomjnoh0ry/jpalacio_cv_long.pdf?dl=0
+---
+division: Experimental Division
+---
+email: jpalacio@ifae.es
+---
+group: Gamma Ray Group
+---
+name:
+
+Joaquim 
+---
+outreach:
+
+#### outreach ####
+line1: Main character of Cazadores de Rayos Gamma
+----
+line2: 
+----
+date: 2017
+----
+url: http://www.cazadoresderayosgamma.com/#
+#### outreach ####
+line1: Master classes in Astroparticles: Crazy about Science
+----
+line2: 
+----
+date: 2017
+----
+url: http://bojosperlafisica.ifae.es/programa/lastrofisica-amb-dades-dels-telescopis-magic-de-la-palma/#
+#### outreach ####
+line1: Developement of outreach Astroparticles analysis tool
+----
+line2: 
+----
+date: 2015
+----
+url: http://outreach.ifae.es/astroparticles/analysis/astro10.html#
+---
+phone: +34 622 297 169
+---
+pic: profile.jpg
+---
+position: Doctoral Student
+---
+publications:
+
+#### publication ####
+title: Constraints to the dark matter lifetime with 250 hours of observations of the Perseus cluster with the MAGIC telescopes
+----
+authors: J. Palacio, M. Doro J. Rico and M. Vazquez Acosta et al. (for the MAGIC Collaboration)
+----
+reference: In preparation
+----
+publink: 
+----
+arxiv: 
+#### publication ####
+title: Search for Dark Matter Annihilation and Decay Signals from very faint Dwarf Satellite Galaxies with MAGIC
+----
+authors: J. Palacio, S. Lombardi, M. Doro and J. Rico et al. (for the MAGIC Collaboration)
+----
+reference: In preparation
+----
+publink: 
+----
+arxiv: 
+#### publication ####
+title: Indirect dark matter searches in the dwarf satellite galaxy Ursa Major II with the MAGIC Telescopes
+----
+authors: P. Giammaria, S. Lombardi, J. Palacio, J. Rico and M. Vazquez Acosta et al. (for the MAGIC Collaboration)
+----
+reference: In preparation
+----
+publink: 
+----
+arxiv: 
+#### publication ####
+title: WIMP dark matter as radiative neutrino mass messenger M. Hirsch, R.A. Lineros, S. Morisi, J. Palacio, N. Rojas and J.W.F. Valle
+----
+authors: M. Hirsch, R.A. Lineros, S. Morisi, J. Palacio, N. Rojas and J.W.F. Valle
+----
+reference: Journal of High Energy Physics, 2013, 149 (2013)
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1307.8134
+----
+arxiv: https://arxiv.org/abs/1307.8134
+#### publication ####
+title: Probing interactions within the dark matter sector via extra radiation contributions
+----
+authors: U. França, R.A. Lineros, J. Palacio, S. Pastor
+----
+reference: Physical Review D, 87, 12, 123521 (2013)
+----
+publink: http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1303.1776
+----
+arxiv: https://arxiv.org/abs/1303.1776
+#### publication ####
+title: The Donut MonteCarlo: A tool for extended source analysis with the MAGIC Telescopes
+----
+authors: J. Palacio, J. Rico and M. Vazquez Acosta
+----
+reference: (INTERNAL) MAGIC Colaboration, 2017
+----
+publink: 
+----
+arxiv: 
+#### publication ####
+title: Large Size Telescope 35 Cluster Noise Test CIEMAT - Procedure Documentation
+----
+authors: J. Palacio, O. Blanch, A. Fernandez, S. Griffit
+----
+reference: (INTERNAL) LST Colaboration, 2017
+----
+publink: 
+----
+arxiv: 
+#### publication ####
+title: Large Size Telescope 35 Cluster Noise Test CIEMAT - Results
+----
+authors: J. Palacio, O. Blanch, A. Fernandez, S. Griffit
+----
+reference: (INTERNAL) LST Colaboration, 2017
+----
+publink: 
+----
+arxiv: 
+#### publication ####
+title: ToMaRe: A Tool for Massive Reprocessing MAGIC data at PIC
+----
+authors: P. Cumani, J. Delgado, J. Palacio
+----
+reference: (INTERNAL) MAGIC Colaboration, 2015
+----
+publink: 
+----
+arxiv: 
+---
+research:
+
+The paradigm of Dark Matter (DM) arises from experimental evidence of gravitational nature from observa- tions performed at all cosmic scales. Although some theories argue for the modification of the gravitational laws (M. Milgrom, 1983), the existence of a new massive particle (or a set of them), interacting only weakly with Standard Model (SM) particles, provides a preferred explanation (G.Bertone, 2004). These so-called weakly interacting massive particles (WIMPs) are the most studied DM candidates since their predicted relic abundance agrees with the measurements by the Planck satellite (Ade et al. 2016) and because several non ad-hoc WIMP candidates are found in extensions of the SM. WIMPs are GeV-TeV mass-scale particles, stable at least on a scale larger than the Hubble time, which might annihilate or decay into SM particles. Among the annihilation or decay products, one finds gamma rays (neutrinos) at the TeV scale, resulting from neutral (charged) pion decays.  
+
+DM particles are expected to gravitationally cluster around early-Universe overdensities, which acted as seeds for the subsequent formation of galaxies. It is therefore natural to look for DM signatures in those astronomical sites where DM is expected to concentrate. The most obvious place is the Milky Way (MW) dynamical center. However, the interplay with stellar activity can make robust predictions on the DM concentration hard to achieve and the still unclear number of unresolved astrophysical sources challenges the interpretation of a result. High DM concentration is also expected in the dwarf Spheroidal Galaxies (dSphs) residing in the halo of the MW and, at larger scales, nearby galaxy clusters (GCs) (Sanchez-Conde 2011). dSphs are galaxies populated with old-generation stars, and basically showing no stellar activities in the last one or two Gy, which allows to infer its DM concentration in a relatively precisely way. GCs, on the other hand, are the largest known gravitationally bound structures in the Universe. GCs are expected to host large amounts of Dark Matter (up to 80% of their mass or even more) and hence, for certain scenarios, despite being much farther away, the expected signal seen from the earth can be higher than the one from other sources.  
+
+WIMPs filling these overdensities may annihilate (or decay) into SM particles, that would be seen from the earth, with unique spectral features that no astrophisical counterpart could explain and, in the case of the photon and the neutrino, would also map the distribution of dark matter in our near universe. Indirect dark matter searches are needed to confirm that plausible hints of new physics found in the near future in other experimental lines (accelerator or direct detection) are indeed THE dark matter.  
+---
+surname: Palacio
+---
+outreach_pic: CazadoresJpalacio.png
