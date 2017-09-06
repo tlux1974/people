@@ -4,7 +4,7 @@ http://people.ifae.es
 
 IFAE personal pages are build with [Lektor](https://www.getlektor.com/) & [Bootstrap 4](http://getbootstrap.com/)
 
-This repository contains the files that lektor renders into the HTML files that are hosted in a PIC server.
+This repository contains the files that Lektor renders into the HTML files that are hosted in a PIC server.
 
 Each personal page master files are under a folder in the [content folder](https://github.com/IFAE/people/tree/master/content). The folder is named with name initial + surname of the person.
 
@@ -18,32 +18,32 @@ Examples:
 The content these pages can accommodate is the following (see [person.ini](https://github.com/IFAE/people/blob/master/models/person.ini) model for details)
 
 #### Personal Information
-- Name, string, mandatory
-- Surname, string, mandatory
-- Profile Pic, image file, mandatory
-- Division, [Experimental Division, Theory Division], mandatory
-- Group, string, [ATLAS Group, Observational Cosmology Group, Gamma Ray Group, Neutrinos Group, Applied Physics Group], mandatory
-- Position, [Doctoral Student, Post-Doc, Research Professor, Research Associate Professor], mandatory
-- Email, string, mandatory
-- Phone, string, optional
-- LinkedIn, string, optional
-- ResearcherID, string, optional
-- ORCID, string, optional
+- **Name**, string, mandatory
+- **Surname**, string, mandatory
+- **Profile Pic**, image file, mandatory
+- **Division**, [Experimental Division, Theory Division], mandatory
+- **Group**, string, [ATLAS Group, Observational Cosmology Group, Gamma Ray Group, Neutrinos Group, Applied Physics Group], mandatory
+- **Position**, [Doctoral Student, Post-Doc, Research Professor, Research Associate Professor], mandatory
+- **Email**, string, mandatory
+- **Phone**, string, optional
+- **LinkedIn**, string, optional
+- **ResearcherID**, string, optional
+- **ORCID**, string, optional
 
 Other can be possible on demand, like Github repos, InspireHEP, Twitter... Ask IFAE's communication team.
 
 #### Research Information
 Research inforation is organized in tabs. Tabs are optional, choose the ones that would better reflect your work (more than two).
 
-- About Me, markdown text and pics
-- Research, markdown text and pics
-- Publications, selected list of publications (3 lines each + links)
-- Projects, selected list of projects (3 lines each + links)
-- Talks , selected list of scientific talks
-- Outreach, lselected ist of outreach activities (3 lines each + links)
-- Patents, list of Patents (3 lines each + links)
-- Awards, list of awards
-- CV, link to pdf you host in a service like Gdrive or dropbox for better maintainance.
+- **About Me**, markdown text and pics
+- **Research**, markdown text and pics
+- **Publications**, selected list of publications (3 lines each + links)
+- **Projects**, selected list of projects (3 lines each + links)
+- **Talks**, selected list of scientific talks
+- **Outreach**, lselected ist of outreach activities (3 lines each + links)
+- **Patents**, list of Patents (3 lines each + links)
+- **Awards**, list of awards
+- **CV**, link to pdf you host in a service like Gdrive or dropbox for better maintainance.
 
 Other can be possible on demand
 
