@@ -21,9 +21,9 @@ The content these pages can accommodate is the following (see [person.ini](https
 - **Name**, string, mandatory
 - **Surname**, string, mandatory
 - **Profile Pic**, image file, mandatory
-- **Division**, [Experimental Division, Theory Division], mandatory
-- **Group**, string, [ATLAS Group, Observational Cosmology Group, Gamma Ray Group, Neutrinos Group, Applied Physics Group], mandatory
-- **Position**, [Doctoral Student, Post-Doc, Research Professor, Research Associate Professor], mandatory
+- **Division**, string [Experimental Division, Theory Division], mandatory
+- **Group**, string [ATLAS Group, Observational Cosmology Group, Gamma Ray Group, Neutrinos Group, Applied Physics Group], mandatory
+- **Position**, string [Doctoral Student, Post-Doc, Research Professor, Research Associate Professor], mandatory
 - **Email**, string, mandatory
 - **Phone**, string, optional
 - **LinkedIn**, string, optional
