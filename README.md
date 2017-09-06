@@ -2,7 +2,7 @@
 
 IFAE personal pages are build with [Lektor](https://www.getlektor.com/) & [Bootstrap 4](http://getbootstrap.com/)
 
-Each personal page is under a folder in the content folder. The folder is named with name initial + surname.
+Each personal page is under a folder in the [content folder](https://github.com/IFAE/people/tree/master/content). The folder is named with name initial + surname of the person.
 
 Examples:
 
