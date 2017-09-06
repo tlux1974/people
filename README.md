@@ -1,6 +1,8 @@
 # IFAE Personal Pages
 
-Pages build with [Lektor](https://www.getlektor.com/) & [Bootstrap 4](http://getbootstrap.com/)
+IFAE personal pages are build with [Lektor](https://www.getlektor.com/) & [Bootstrap 4](http://getbootstrap.com/)
+
+Each personal page is under a folder in the content folder. The folder is named with name initial + surname.
 
 Examples:
 
@@ -21,11 +23,10 @@ The content these pages can accommodate is the following (see [person.ini](https
 - ResearcherID, string, optional
 - ORCID, string, optional
 
-other can be possible on demand, like Github repos
+Other can be possible on demand, like Github repos. Ask IFAE's communication team.
 
 #### Research Information
-
-Tabs are optional, choose the ones that would better reflect your work
+Research inforation is organized in tabs. Tabs are optional, choose the ones that would better reflect your work (more than two).
 
 - About Me, markdown text and pics
 - Research, markdown text and pics
@@ -37,13 +38,15 @@ Tabs are optional, choose the ones that would better reflect your work
 - Awards, list of awards
 - CV, link to pdf you host in a service like Gdrive or dropbox for better maintainance.
 
+Other can be possible on demand
+
 ## How to create a personal page
 
-1. Compile the required information in a text document and image files and get in contact with de communication team.
+1. Compile all the information in a text and image files and get in contact with IFAE's communication team.
 
-2. Build yourself the textfile that will be compiled into html. Then send it to the communication team.
+2. Build yourself the text file that will be compiled into html. Then send it to the communication team together with the image files.
 
 Here's and [example of text file](https://github.com/IFAE/people/blob/master/content/csanchez/contents.lr) for this [personal page](http://ifaews01.pic.es/people/csanchez/)
-You can also find other examples in the [contet folder of this repo](https://github.com/IFAE/people/tree/master/content)
+You can also find other examples in the [content folder of this repo](https://github.com/IFAE/people/tree/master/content)
 
-3. Install lektor, clone this repo, build your page and do a pull request.
+3. Install lektor, clone this repo, build your page under your folderand do a pull request.
