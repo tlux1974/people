@@ -5,10 +5,10 @@ Pages build with [Lektor](https://www.getlektor.com/) & [Bootstrap 4](http://get
 Examples:
 
 
-##Structure of the personal Pages
+## Structure of the personal Pages
 The content these pages can accommodate is the following (see person.ini model)
 
-####Personal Information
+#### Personal Information
 Name, string, mandatory
 Surname, string, mandatory
 Profile Pic, image file, mandatory
@@ -23,7 +23,7 @@ ORCID, string, optional
 
 other can be possible on demand, like Github repos
 
-####Research Information
+#### Research Information
 
 Tabs are optional, choose the ones that would better reflect your work
 
@@ -37,7 +37,7 @@ Patents, list of Patents (3 lines each + links)
 Awards, list of awards
 CV, link to pdf you host in a service like Gdrive or dropbox for better maintainance.
 
-##How to create a personal page
+## How to create a personal page
 
 1. Compile the required information in a text document and image files and get in contact with de communication team.
 
@@ -46,4 +46,4 @@ CV, link to pdf you host in a service like Gdrive or dropbox for better maintain
 Here's and [example of text file](https://github.com/IFAE/people/blob/master/content/csanchez/contents.lr) for this [personal page](http://ifaews01.pic.es/people/csanchez/)
 You can also find other examples in the [contet folder of this repo](https://github.com/IFAE/people/tree/master/content)
 
-3 - Install lektor, clone this repo and do a pull request.
+3. Install lektor, clone this repo and do a pull request.
