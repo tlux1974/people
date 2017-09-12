@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}IFAE people{% endblock %}
+{% block content %}
+  <div class="row">
+  {% for person in this.children%}
+    {% set image = person.attachments.images.get('profile.png')%}
+    <div class="col-4">
+      <div class="card">
+        <a href="{{person|url}}"><img class="card-img-top" src="{{ image.thumbnail(200)|url }}" alt="{{person.name}} {{person.surname}}"></a>
+        <div class="card-body">
+          <a href="{{person|url}}"><h4 class="card-title">{{person.name}} {{person.surname}}</h4></a>
+          <p class="card-text">{{person.position}} at IFAE's <br><strong>{{person.group}}</strong></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
