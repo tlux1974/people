@@ -42,7 +42,7 @@ Research inforation is organized in tabs. Tabs are optional, choose the ones tha
 - **Outreach**, lselected ist of outreach activities (3 lines each + links)
 - **Patents**, list of Patents (3 lines each + links)
 - **Awards**, list of awards
-- **CV**, link to pdf you host in a service like Gdrive or dropbox for better maintainance.
+- **CV**, link to pdf you host in a service like Gdrive or dropbox for easy update and maintainance.
 
 Other can be possible on demand
 
@@ -52,6 +52,6 @@ Here are the different options.
 1. Compile all the information in a text and image files and get in contact with IFAE's communication team. 
 
 2. Build yourself the text file that will be compiled into html. Then send it to the communication team together with the image files. Use [this file](https://github.com/IFAE/people/blob/master/content/csanchez/contents.lr) as an example that renders [this page](http://people.ifae.es/csanchez/)
-You can also find other examples in the [content folder of this repo](https://github.com/IFAE/people/tree/master/content). You will not be able to see the rendering of the page.
+You can also find other examples in the [content folder of this repo](https://github.com/IFAE/people/tree/master/content). You will not be able to see the rendering of the page while working on it.
 
-3. Install [Lektor](https://www.getlektor.com/), clone this repo, build your page under your folder and do a pull request. You will be able to see the rendering of the page.
+3. Install [Lektor](https://www.getlektor.com/), clone this repo, build your page under your folder and do a pull request. You will be able to see the rendering of the page while working on it.

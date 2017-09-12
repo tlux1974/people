@@ -1,8 +1,16 @@
 <div class="container">
 <br>
 <div class="row">
-	<div class="col-12">
-		<a href="{{this.pic}}"><img src="{{this.pic}}" alt="..." class="img-thumbnail"></a>
+	<div cl data-toggle="modal" data-target="#{{this.pic[:-4]}}"><img src="{{this.pic}}" alt="..." class="img-thumbnail"></a>
+		<div class="modal fade" id="{{this.pic[:-4]}}" tabindex="-1" role="dialog" aria-labelledby="{{this.pic[:-4]}}Label" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		        <img src="{{this.pic}}" alt="..." class="img-thumbnail">
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</div>
 </div>
 <br>

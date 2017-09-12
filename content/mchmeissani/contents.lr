@@ -2,54 +2,31 @@ _model: person
 ---
 aboutme:
 
-Professor at IFAE. Mokhtar Chmeissani was born in Beirut, Lebanon, in 1960. He did his undergraduate studies at the faculty of Science of the Lebanese University, where he obtained his B.S. in Physics in 1982. Then he moved to University of Michigan where he did his Ph.D thesis on particle physics and defended his thesis successfully in early 1991. After that he went to the European Organization for Nuclear Research (CERN) and participated on various experiments such as, L3, ALEPH, RD3, and ATLAS. His research was focused on the data analysis related to Quantum Chromo Dynamics (QCD) and detector instrumentations.  
-  
+#### text ####
+text: Professor at IFAE. Mokhtar Chmeissani was born in Beirut, Lebanon, in 1960. He did his undergraduate studies at the faculty of Science of the Lebanese University, where he obtained his B.S. in Physics in 1982. Then he moved to University of Michigan where he did his Ph.D thesis on particle physics and defended his thesis successfully in early 1991. After that he went to the European Organization for Nuclear Research (CERN) and participated on various experiments such as, L3, ALEPH, RD3, and ATLAS. His research was focused on the data analysis related to Quantum Chromo Dynamics (QCD) and detector instrumentations.
+#### 3pic ####
+pic1: l3.png
+----
+pic2: aleph.jpg
+----
+pic3: atlas.jpg
+#### text ####
+text: He joined the Medipix2 collaboration at CERN in 1998 and in 2001 he coordinated "Detection of Early Markers in Mammography” project , funded by the European 5th Framework Programme (FP5), to develop X-ray digital imaging detectors for mammography and general radiology based on a Photon Counting sensor. ). In 2005 he developed a radiation monitor for the LISA Pathfinder, a European Space Mission for detecting gravitational waves. In 2008 he received the Silver Medal at the 36th International Salon of Inventions, Geneva, Switzerland for the concept of a 3D real time breast biopsy system.
+#### 3pic ####
+pic1: dear-mama.png
+----
+pic2: lisa.png
+----
+pic3: award.png
+#### text ####
+text:
 
-<div class="container">
-<br>
-<div class="row">
-	<div class="col-4">
-		<a href="l3.png"><img src="l3.png" alt="..." class="img-thumbnail"></a>
-	</div>
-	<div class="col-4">
-		<a href="aleph.jpg"><img src="aleph.jpg" alt="..." class="img-thumbnail" ></a>
-	</div>
-	<div class="col-4">
-		<a href="atlas.jpg"><img src="atlas.jpg" alt="..." class="img-thumbnail" ></a>
-	</div>
-</div>
-<br>
-</div>
-  
-
-He joined the Medipix2 collaboration at CERN in 1998 and in 2001 he coordinated "Detection of Early Markers in Mammography” project , funded by the European 5th Framework Programme (FP5), to develop X-ray digital imaging detectors for mammography and general radiology based on a Photon Counting sensor. ). In 2005 he developed a radiation monitor for the LISA Pathfinder, a European Space Mission for detecting gravitational waves. In 2008 he received the Silver Medal at the 36th International Salon of Inventions, Geneva, Switzerland for the concept of a 3D real time breast biopsy system.  
-  
-<div class="container">
-<br>
-<div class="row">
-	<div class="col-4">
-		<a href="dear-mama.png"><img src="dear-mama.png" alt="..." class="img-thumbnail"></a>
-	</div>
-	<div class="col-4">
-		<a href="lisa.png"><img src="lisa.png" alt="..." class="img-thumbnail" ></a>
-	</div>
-	<div class="col-4">
-		<a href="award.png"><img src="award.png" alt="..." class="img-thumbnail" ></a>
-	</div>
-</div>
-<br>
-</div>
-  
-
-After the conclusion of the work in the breast biopsy machine, Mokhtar shifted his research towards nuclear medicine. He proposed to construct a new type of PET scanner based on pixel CdTe solid state detectors. This novel detector will yield good quality images with much less radiation dose and open the way to build Compton Gamma Camera. The idea of this novel detector was very well received by the European Research Council (ERC) which awarded him a grant in 2010 to build a small prototype for evaluation. Beside his work on the novel PET scanner, he is currently leading the development of pixel sensor for use in X-ray scanner for security and quality control. The sensor has 8 thresholds making it possible to detect minute change in material density.  
-  
-<div class="container">
+After the conclusion of the work in the breast biopsy machine, Mokhtar shifted his research towards nuclear medicine. He proposed to construct a new type of PET scanner based on pixel CdTe solid state detectors. This novel detector will yield good quality images with much less radiation dose and open the way to build Compton Gamma Camera. The idea of this novel detector was very well received by the European Research Council (ERC) which awarded him a grant in 2010 to build a small prototype for evaluation. Beside his work on the novel PET scanner, he is currently leading the development of pixel sensor for use in X-ray scanner for security and quality control. The sensor has 8 thresholds making it possible to detect minute change in material density.
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5Zu3ZdEvz8M" frameborder="0" allowfullscreen></iframe>
 <br>
-</div>
-    
-Mokhtar has more than 25 years of expertise in the instrumentation of radiation detectors in general and the pixel detectors in particular. He holds 3 patents. He has been  the president of X-ray Imatek SL [www.xray-imatek.com](www.xray-imatek.com), a spin-off company specialized in X-ray pixel sensors, from 2006 to 2016 
+#### text ####
+text: Mokhtar has more than 25 years of expertise in the instrumentation of radiation detectors in general and the pixel detectors in particular. He holds 3 patents. He has been the president of [X-ray Imatek SL](http://www.xray-imatek.com), a spin-off company specialized in X-ray pixel sensors, from 2006 to 2016
 ---
 division: Experimental Division
 ---
