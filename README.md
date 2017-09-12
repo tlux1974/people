@@ -18,7 +18,7 @@ The content these pages can accommodate is the following
 #### Personal Information
 - **Name**, string, mandatory
 - **Surname**, string, mandatory
-- **Profile Pic**, image file, mandatory
+- **Profile Pic**, square image file, mandatory
 - **Division**, string [Experimental Division, Theory Division], mandatory
 - **Group**, string [ATLAS Group, Observational Cosmology Group, Gamma Ray Group, Neutrinos Group, Applied Physics Group], mandatory
 - **Position**, string [Doctoral Student, Post-Doc, Research Professor, Research Associate Professor], mandatory
@@ -47,7 +47,7 @@ Research inforation is organized in tabs. Tabs are optional, choose the ones tha
 Other can be possible on demand
 
 ## How to create a personal page
-Here are the different options.
+Here are the different options:
 
 1. Compile all the information in a text and image files and get in contact with IFAE's communication team. 
 
