@@ -1,21 +1,19 @@
 # IFAE Personal Pages
 
-http://people.ifae.es
-
 IFAE personal pages are build with [Lektor](https://www.getlektor.com/) & [Bootstrap 4](http://getbootstrap.com/)
 
-This repository contains the files that Lektor renders into the HTML files that are hosted in a PIC server.
+This repository contains the master files that are rendered to HTML by Lektor. The website is hosted at PIC.
 
-Each personal page master files are under a folder in the [content folder](https://github.com/IFAE/people/tree/master/content). The folder is named with name initial + surname of the person.
+Each personal page master files (texts and images) are under a folder in the [content folder](https://github.com/IFAE/people/tree/master/content). The folder is named with name initial + surname of the person.
 
 Examples:
 
-- http://ifaews01.pic.es/people/csanchez/
-- http://ifaews01.pic.es/people/jpalacio/
-- http://ifaews01.pic.es/people/mchmeissani/
+- http://people.ifae.es/csanchez/
+- http://people.ifae.es/jpalacio/
+- http://people.ifae.es/mchmeissani/
 
 ## Structure of the personal Pages
-The content these pages can accommodate is the following (see [person.ini](https://github.com/IFAE/people/blob/master/models/person.ini) model for details)
+The content these pages can accommodate is the following 
 
 #### Personal Information
 - **Name**, string, mandatory
@@ -30,6 +28,7 @@ The content these pages can accommodate is the following (see [person.ini](https
 - **ResearcherID**, string, optional
 - **ORCID**, string, optional
 
+See [person.ini](https://github.com/IFAE/people/blob/master/models/person.ini) model for more details
 Other can be possible on demand, like Github repos, InspireHEP, Twitter... Ask IFAE's communication team.
 
 #### Research Information
@@ -51,9 +50,7 @@ Other can be possible on demand
 
 1. Compile all the information in a text and image files and get in contact with IFAE's communication team.
 
-2. Build yourself the text file that will be compiled into html. Then send it to the communication team together with the image files.
-
-Here's and [example of text file](https://github.com/IFAE/people/blob/master/content/csanchez/contents.lr) for this [personal page](http://ifaews01.pic.es/people/csanchez/)
+2. Build yourself the text file that will be compiled into html. Then send it to the communication team together with the image files. Use [this file](https://github.com/IFAE/people/blob/master/content/csanchez/contents.lr) as an example that renders [this page](http://people.ifae.es/csanchez/)
 You can also find other examples in the [content folder of this repo](https://github.com/IFAE/people/tree/master/content)
 
 3. Install [Lektor](https://www.getlektor.com/), clone this repo, build your page under your folder and do a pull request.
